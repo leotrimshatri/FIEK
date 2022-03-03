@@ -1,4 +1,5 @@
 Përmbajtja
+
  Definimi i klasave të zakonshme
  Deklarimi i objekteve
  Qasja te komponentet e klasës
