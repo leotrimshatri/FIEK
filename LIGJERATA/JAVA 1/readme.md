@@ -1,7 +1,11 @@
 Përmbajtja
 
  Definimi i klasave të zakonshme
+
+
  Deklarimi i objekteve
+
+
  Qasja te komponentet e klasës
  Forma e përgjithshme e klasave
  Definimi i funksioneve jashtë klasës
