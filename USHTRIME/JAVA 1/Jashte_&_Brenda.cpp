@@ -1,6 +1,6 @@
 // Detyra 3 - forma tjetër. Deklarimi i prototipit të funksionit brenda klasës kurse definimi jashtë saj.
-#include <iostream>
 
+#include <iostream>
 using namespace std;
 
 class Rrethi {
@@ -35,4 +35,3 @@ int main() {
 	return 0;
 }
 
-/*
