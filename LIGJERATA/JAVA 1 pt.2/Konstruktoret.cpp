@@ -34,6 +34,7 @@ return 0;
 
 //Konstuktoret pa parametra formal__________________________________________________________________________________________________________________________________________
 // Programi class9
+
 #include <iostream>
 using namespace std;
 
