@@ -70,11 +70,13 @@ public:
             cin >> Perdorimi[i];
         }
     }
+    
     void FillimiFundi(char *fillimi, char *fundi)
     {
         *fillimi = prodhuesi[0];
         *fundi = prodhuesi[prodhuesi.size() - 1];
     }
+    
     int Numerimi()
     {
         int k = 0;
@@ -88,6 +90,7 @@ public:
         }
         return k;
     }
+    
     void MaxMin(int &max, int &min)
     {
         max = Perdorimi[0];
@@ -106,6 +109,7 @@ public:
         }
     }
 };
+
 void main()
 {
     Telefoni T;
