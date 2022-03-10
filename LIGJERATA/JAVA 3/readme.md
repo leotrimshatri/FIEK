@@ -25,3 +25,9 @@ Përmbajtja
   Pointerët në struktura
   
    Pointerët në objekte
+
+Për deklarimin e referencave shfrytëzohet operatori për referim &,
+i cili nuk dallohet nga simboli i operatorit të adresave që shfrytëzohet
+për marrjen e adresave te pointerët.
+Referencat kryesisht shfrytëzohen gjatë operimit me parametrat e
+funksioneve.
