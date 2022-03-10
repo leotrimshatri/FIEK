@@ -1,6 +1,6 @@
-1b. n = 4 => shuma = 13
-1c. n = 7 => shuma = 13, i = 4
-1d. 
+//1b. n = 4 => shuma = 13
+//1c. n = 7 => shuma = 13, i = 4
+//1d. 
 #include <iostream>
 
 using namespace std;
