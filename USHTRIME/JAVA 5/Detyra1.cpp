@@ -35,3 +35,34 @@ int main() {
 
 	return 0;
 }
+
+// 1-f
+#include <iostream>
+
+using namespace std;
+
+int* shuma(int* a, int* b) {
+	int s = 0;
+	if (*a > *b) {
+		s = -1;
+		return &s;
+	}
+
+	for (int i = *a; i <= *b; i++) {
+		s += i;
+	}
+
+	return &s;
+}
+
+int main() {
+	int c, d;
+	cout << "Vlera e c: ";
+	cin >> c;
+	cout << "Vlera e d: ";
+	cin >> d;
+
+	cout << "Shuma: " << *shuma(&c, &d) << endl;
+
+	return 0;
+}
