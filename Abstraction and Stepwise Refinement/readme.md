@@ -1,2 +1,1 @@
-Function Abstraction and Stepwise Refinement
-The key to developing software is to apply the concept of abstraction
+Due to its extreme simplicity, it aims to be the easiest framework to add new accelerators to, with support for both inference and training. Support the simple basic ops, and you get SOTA [vision](https://arxiv.org/abs/1905.11946) `models/efficientnet.py` and [language](https://arxiv.org/abs/1706.03762) `models/transformer.py` models.
