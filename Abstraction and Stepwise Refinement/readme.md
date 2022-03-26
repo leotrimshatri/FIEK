@@ -15,6 +15,10 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
 </p>
 
 The month title consists of three lines: month and year, a dashed line, and the names of the seven days of the week. (You need to get the month name (e.g., January) from the numeric month (e.g., 1). This is accomplished in printMonthName). 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77514315/160250147-980ddd9d-86d7-4b2c-80b9-d9d5dfcd1090.png">
+</p>
   
 To print the month body, you need to know which day of the week is the first day of the month (getStartDay) and how many days the month has (getNumberOfDaysInMonth).
 
