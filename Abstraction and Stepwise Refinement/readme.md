@@ -24,4 +24,7 @@ To print the month body, you need to know which day of the week is the first day
 
 How would you get the start day for a month? There are several ways to find it. Assume that you know that the start day (startDay1800 = 3) for January 1, 1800, was Wednesday. You could compute the total number of days (totalNumberOfDays) between January 1, 1800, and the start day of the calendar month. The computation is (totalNumberOfDays + startDay1800) % 7, because every week has seven days.
 
-So the getStartDay problem can be further refined as getTotalNumberOfDays,
+So the getStartDay problem can be further refined as getTotalNumberOfDays.
+
+To get the total number of days, you need to know whether a year is a leap year and how many days are in each month. So getTotalNumberOfDays is further refined into two subproblems:
+isLeapYear and getNumberOfDaysInMonth,get the total number of days, you need to know whether a year is a leap year and how many days are in each month. So getTotalNumberOfDays is further refined into two subproblems: isLeapYear and getNumberOfDaysInMonth,
