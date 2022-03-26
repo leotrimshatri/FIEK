@@ -6,6 +6,12 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
   <img src="https://user-images.githubusercontent.com/77514315/160249528-05361ce5-2570-4704-9bb8-32143bf94fc0.png">
 </p>
 
+### 1. For this example, the problem is first broken into two subproblems: get input from the user, and print the calendar for the month.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77514315/160249788-01d0f01f-9112-47b7-b441-8f1483011252.png">
+</p>
+
+The month title consists of three lines: month and year, a dashed line, and the names of the seven days of the week. (You need to get the month name (e.g., January) from the numeric month (e.g., 1). This is accomplished in printMonthName). 
   
-
+To print the month body, you need to know which day of the week is the first day of the month (getStartDay) and how many days the month has (getNumberOfDaysInMonth).
