@@ -34,6 +34,12 @@ isLeapYear and getNumberOfDaysInMonth,get the total number of days, you need to 
   <img src="https://user-images.githubusercontent.com/77514315/160250316-8dc6b4d7-1fbb-4901-b725-02b31e159648.png">
 </p>
 
+## "Top-Down" implementation
+You must decide which modules to implement as functions and which to combine in other
+functions.You can use either a “top-down” or a “bottom-up” implementation. The top-down approach
+implements one function at a time in the structure chart from top to bottom. Stubs can be used
+for the functions waiting to be implemented. A stub is a simple, but incomplete, version of a
+function. Usually a stub displays a test message indicating that it was called, and nothing more.
 
 ```cpp
 #include <iostream>
@@ -69,7 +75,7 @@ cout << month << " " << year << endl;
 }
 ```
 
-# Benefits of Stepwise Refinement
+## Benefits of Stepwise Refinement
 
 Stepwise refinement breaks a large problem into smaller manageable subproblems. Each subproblem
 can be implemented using a function. This approach makes the program easier to
