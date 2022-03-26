@@ -68,3 +68,32 @@ void printMonth(int year, int month)
 cout << month << " " << year << endl;
 }
 ```
+
+# Benefits of Stepwise Refinement
+
+Stepwise refinement breaks a large problem into smaller manageable subproblems. Each subproblem
+can be implemented using a function. This approach makes the program easier to
+write, reuse, debug, test, modify, and maintain.
+
+Simpler Program
+The print calendar program is long. Rather than writing a long sequence of statements in one
+function, stepwise refinement breaks it into smaller functions. This simplifies the program and
+makes the whole program easier to read and understand.
+
+Reusing Functions
+Stepwise refinement promotes code reuse within a program. The isLeapYear function is defined
+once and invoked from the getTotalNumberOfDays and getNumberOfDaysInMonth functions.
+This reduces redundant code.
+
+Easier Developing, Debugging, and Testing
+Since each subproblem is solved in a function, a function can be developed, debugged, and
+tested individually. This isolates the errors and makes developing, debugging, and testing
+easier.
+When implementing a large program, use the top-down or bottom-up approach. Do not write
+the entire program at once. Using these approaches seems to take more development time (because
+you repeatedly compile and run the program), but actually it saves time and facilitates debugging.
+
+Better Facilitating Teamwork
+Since a large problem is divided into subprograms, the subproblems can be assigned to other
+programmers. This makes it easier for programmers to work in teams.
+
