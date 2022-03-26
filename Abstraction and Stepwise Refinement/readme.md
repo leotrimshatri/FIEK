@@ -28,3 +28,9 @@ So the getStartDay problem can be further refined as getTotalNumberOfDays.
 
 To get the total number of days, you need to know whether a year is a leap year and how many days are in each month. So getTotalNumberOfDays is further refined into two subproblems:
 isLeapYear and getNumberOfDaysInMonth,get the total number of days, you need to know whether a year is a leap year and how many days are in each month. So getTotalNumberOfDays is further refined into two subproblems: isLeapYear and getNumberOfDaysInMonth,
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77514315/160250298-4161b87d-ae1b-4f99-9b70-b4bfaffa524e.png">
+  <img src="https://user-images.githubusercontent.com/77514315/160250316-8dc6b4d7-1fbb-4901-b725-02b31e159648.png">
+</p>
+
