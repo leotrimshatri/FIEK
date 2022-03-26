@@ -104,5 +104,5 @@ Since a large problem is divided into subprograms, the subproblems can be assign
 programmers. This makes it easier for programmers to work in teams.
 
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/77514315/160253822-1bff8b7f-edcc-4bb7-a5ba-b86f2dcd7c71.png)>
+  <img src="https://user-images.githubusercontent.com/77514315/160253822-1bff8b7f-edcc-4bb7-a5ba-b86f2dcd7c71.png">
 </p>
