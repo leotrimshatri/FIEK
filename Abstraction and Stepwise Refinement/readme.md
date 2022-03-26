@@ -15,12 +15,12 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
 </p>
 
 The month title consists of three lines: month and year, a dashed line, and the names of the seven days of the week. (You need to get the month name (e.g., January) from the numeric month (e.g., 1). This is accomplished in printMonthName). 
+  
+To print the month body, you need to know which day of the week is the first day of the month (getStartDay) and how many days the month has (getNumberOfDaysInMonth).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/77514315/160250147-980ddd9d-86d7-4b2c-80b9-d9d5dfcd1090.png">
 </p>
-  
-To print the month body, you need to know which day of the week is the first day of the month (getStartDay) and how many days the month has (getNumberOfDaysInMonth).
 
 How would you get the start day for a month? There are several ways to find it. Assume that you know that the start day (startDay1800 = 3) for January 1, 1800, was Wednesday. You could compute the total number of days (totalNumberOfDays) between January 1, 1800, and the start day of the calendar month. The computation is (totalNumberOfDays + startDay1800) % 7, because every week has seven days.
 
