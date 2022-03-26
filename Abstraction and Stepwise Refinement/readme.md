@@ -5,4 +5,8 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
 1. For this example, the problem is first broken into two subproblems: get input from the user, and print the calendar for the month.
 
 
-![Screenshot 2022-02-23 105807](https://user-images.githubusercontent.com/77514315/160249372-20df9614-ab0d-4aa8-b29a-ab05af8a3cc6.png)
+<p align="center">
+  <img ![Screenshot 2022-02-23 105807](https://user-images.githubusercontent.com/77514315/160249449-9af9ed2a-411d-4fab-ab67-609a8d8bdb87.png)>
+</p>
+  
+
