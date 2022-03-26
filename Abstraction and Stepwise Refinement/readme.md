@@ -6,7 +6,7 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
   <img src="https://user-images.githubusercontent.com/77514315/160249528-05361ce5-2570-4704-9bb8-32143bf94fc0.png">
 </p>
 
-#### Suppose you write a program that displays the calendar for a given month of the year. Theprogram prompts the user to enter the year and the month, and then displays the entire calendarfor the month, as shown in Figure
+#### Suppose you write a program that displays the calendar for a given month of the year. The program prompts the user to enter the year and the month, and then displays the entire calendar for the month, as shown in Figure
 
 ### 1. For this example, the problem is first broken into two subproblems: get input from the user, and print the calendar for the month.
 
