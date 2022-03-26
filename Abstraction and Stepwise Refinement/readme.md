@@ -6,7 +6,7 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
 
 
 <p align="center">
-  <img ![Screenshot 2022-02-23 105807](https://user-images.githubusercontent.com/77514315/160249449-9af9ed2a-411d-4fab-ab67-609a8d8bdb87.png)>
+   ![Screenshot 2022-02-23 105807](https://user-images.githubusercontent.com/77514315/160249449-9af9ed2a-411d-4fab-ab67-609a8d8bdb87.png)
 </p>
   
 
