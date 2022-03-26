@@ -6,6 +6,8 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
   <img src="https://user-images.githubusercontent.com/77514315/160249528-05361ce5-2570-4704-9bb8-32143bf94fc0.png">
 </p>
 
+#### Suppose you write a program that displays the calendar for a given month of the year. Theprogram prompts the user to enter the year and the month, and then displays the entire calendarfor the month, as shown in Figure
+
 ### 1. For this example, the problem is first broken into two subproblems: get input from the user, and print the calendar for the month.
 
 <p align="center">
@@ -15,3 +17,7 @@ When writing a large program, you can use the “divide-and-conquer” strategy,
 The month title consists of three lines: month and year, a dashed line, and the names of the seven days of the week. (You need to get the month name (e.g., January) from the numeric month (e.g., 1). This is accomplished in printMonthName). 
   
 To print the month body, you need to know which day of the week is the first day of the month (getStartDay) and how many days the month has (getNumberOfDaysInMonth).
+
+How would you get the start day for a month? There are several ways to find it. Assume that you know that the start day (startDay1800 = 3) for January 1, 1800, was Wednesday. You could compute the total number of days (totalNumberOfDays) between January 1, 1800, and the start day of the calendar month. The computation is (totalNumberOfDays + startDay1800) % 7, because every week has seven days.
+
+So the getStartDay problem can be further refined as getTotalNumberOfDays,
