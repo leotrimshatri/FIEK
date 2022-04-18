@@ -12,3 +12,7 @@ monthly payment and total payment are its functions.
 You can then use the functions to find the monthly payment and total payment
 of your loan. As a user of the Loan class, you don’t need to know how these functions are
 implemented.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77514315/163886385-019e4b9f-6ddc-476e-aeb9-a45095ddc5b5.png">
+</p>
